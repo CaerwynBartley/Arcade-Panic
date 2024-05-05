@@ -1,0 +1,2640 @@
+2024-5-5
+Rendering UV GBuffer for Game_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Game_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Game_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Game_LMA3 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Game_LMA4 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LMA4.lz4" 2 0 4 0
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LMA3.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LM0.lz4" 2 0 0 0
+Running ftraceRTX ao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4_ao" 8 16 4
+Running ftraceRTX ao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_ao" 8 16 2
+Running ftraceRTX ao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_ao" 8 16 3
+Running ftraceRTX ao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_ao" 8 16 1
+Running ftraceRTX ao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_ao" 8 16 0
+Running ftraceRTX batchpointlightlegacy "C:\Users\Barty\AppData\Local\Temp\frender" "PointBatch_4_0_1" 4 0 4 batchpointlight_4_0_1.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4" 4 0 4 comp_4.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\Barty\AppData\Local\Temp\frender" "PointBatch_2_0_1" 4 0 2 batchpointlight_2_0_1.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4_diffuse" 4 16 4 "gi_Game_LMA40.bin" "Game_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_diffuse" 4 16 2 "gi_Game_LMA20.bin" "Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_diffuse" 4 16 3 "gi_Game_LMA30.bin" "Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA10.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_diffuse" 4 16 0 "gi_Game_LM00.bin" "Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4_diffuse" 4 16 4 "gi_Game_LMA41.bin" "Game_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_diffuse" 4 16 2 "gi_Game_LMA21.bin" "Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_diffuse" 4 16 3 "gi_Game_LMA31.bin" "Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA11.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_diffuse" 4 16 0 "gi_Game_LM01.bin" "Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4_diffuse" 4 16 4 "gi_Game_LMA42.bin" "Game_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_diffuse" 4 16 2 "gi_Game_LMA22.bin" "Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_diffuse" 4 16 3 "gi_Game_LMA32.bin" "Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA12.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_diffuse" 4 16 0 "gi_Game_LM02.bin" "Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4_diffuse" 4 16 4 "gi_Game_LMA43.bin" "Game_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_diffuse" 4 16 2 "gi_Game_LMA23.bin" "Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_diffuse" 4 16 3 "gi_Game_LMA33.bin" "Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA13.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_diffuse" 4 16 0 "gi_Game_LM03.bin" "Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4_final" 4 16 4 "gi_Game_LMA44.bin" "Game_LMA4_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_final" 4 16 2 "gi_Game_LMA24.bin" "Game_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_final" 4 16 3 "gi_Game_LMA34.bin" "Game_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_final" 4 16 1 "gi_Game_LMA14.bin" "Game_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_final" 4 16 0 "gi_Game_LM04.bin" "Game_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4_final_HDR.lz4" 4 0 4 addao_4.bin
+Running denoiserOIDN2 c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA4_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA4_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "4" "Game_LMA4_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 67720, left 24
+Collecting edges...
+72 edges
+Sorting...
+Finding seams...X
+0 seams
+Running ftraceRTX addao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_final_HDR.lz4" 4 0 2 addao_2.bin
+Running denoiserOIDN2 c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA2_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA2_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "2" "Game_LMA2_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 67720, left 16642
+Collecting edges...
+46710 edges
+Sorting...
+Finding seams...X
+718 seams
+Generating mesh...
+Initializing D3D...
+Selected device: NVIDIA GeForce RTX 4090
+Loaded vertex shader: seamfix.vso
+Loaded pixel shader: debugLines.pso
+Loading half-float lightmap...
+Rendering...
+Saving...
+Running ftraceRTX addao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_final_HDR.lz4" 4 0 3 addao_3.bin
+Running denoiserOIDN2 c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA3_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA3_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "3" "Game_LMA3_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 67720, left 240
+Collecting edges...
+720 edges
+Sorting...
+Finding seams...X
+0 seams
+Running ftraceRTX addao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_final_HDR.lz4" 4 0 1 addao_1.bin
+Running denoiserOIDN2 c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA1_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA1_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "1" "Game_LMA1_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 67720, left 12
+Collecting edges...
+36 edges
+Sorting...
+Finding seams...X
+0 seams
+Running ftraceRTX addao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_final_HDR.lz4" 4 0 0 addao_0.bin
+Running denoiserOIDN2 c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LM0_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LM0_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "0" "Game_LM0_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 67720, left 12
+Collecting edges...
+36 edges
+Sorting...
+Finding seams...X
+0 seams
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA4_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/BakeryLightmaps/Game_LMA4_final.hdr" 1024
+Initializing D3D...
+Done
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA2_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/BakeryLightmaps/Game_LMA2_final.hdr" 1024
+Initializing D3D...
+Done
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA3_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/BakeryLightmaps/Game_LMA3_final.hdr" 1024
+Initializing D3D...
+Done
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA1_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/BakeryLightmaps/Game_LMA1_final.hdr" 1024
+Initializing D3D...
+Done
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LM0_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/BakeryLightmaps/Game_LM0_final.hdr" 1024
+Initializing D3D...
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for Game_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Game_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Game_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Game_LMA3 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Game_LMA4 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LMA3.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LMA4.lz4" 2 0 4 0
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LM0.lz4" 2 0 0 0
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\Barty\AppData\Local\Temp\frender" "PointBatch_2_0_1" 4 0 2 batchpointlight_2_0_1.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\Barty\AppData\Local\Temp\frender" "PointBatch_4_0_1" 4 0 4 batchpointlight_4_0_1.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4" 4 0 4 comp_4.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_diffuse" 4 16 3 "gi_Game_LMA30.bin" "Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_diffuse" 4 16 2 "gi_Game_LMA20.bin" "Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4_diffuse" 4 16 4 "gi_Game_LMA40.bin" "Game_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA10.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_diffuse" 4 16 0 "gi_Game_LM00.bin" "Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_diffuse" 4 16 3 "gi_Game_LMA31.bin" "Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_diffuse" 4 16 2 "gi_Game_LMA21.bin" "Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4_diffuse" 4 16 4 "gi_Game_LMA41.bin" "Game_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA11.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_diffuse" 4 16 0 "gi_Game_LM01.bin" "Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_diffuse" 4 16 3 "gi_Game_LMA32.bin" "Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_diffuse" 4 16 2 "gi_Game_LMA22.bin" "Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4_diffuse" 4 16 4 "gi_Game_LMA42.bin" "Game_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA12.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_diffuse" 4 16 0 "gi_Game_LM02.bin" "Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_diffuse" 4 16 3 "gi_Game_LMA33.bin" "Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_diffuse" 4 16 2 "gi_Game_LMA23.bin" "Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4_diffuse" 4 16 4 "gi_Game_LMA43.bin" "Game_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA13.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_diffuse" 4 16 0 "gi_Game_LM03.bin" "Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_final" 4 16 3 "gi_Game_LMA34.bin" "Game_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_final" 4 16 2 "gi_Game_LMA24.bin" "Game_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4_final" 4 16 4 "gi_Game_LMA44.bin" "Game_LMA4_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_final" 4 16 1 "gi_Game_LMA14.bin" "Game_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_final" 4 16 0 "gi_Game_LM04.bin" "Game_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running denoiserOIDN c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA3_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA3_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "3" "Game_LMA3_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 67720, left 240
+Collecting edges...
+720 edges
+Sorting...
+Finding seams...X
+0 seams
+Running denoiserOIDN c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA2_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA2_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "2" "Game_LMA2_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 67720, left 16642
+Collecting edges...
+46710 edges
+Sorting...
+Finding seams...X
+718 seams
+Generating mesh...
+Initializing D3D...
+Selected device: NVIDIA GeForce RTX 4090
+Loaded vertex shader: seamfix.vso
+Loaded pixel shader: debugLines.pso
+Loading half-float lightmap...
+Rendering...
+Saving...
+Running denoiserOIDN c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA4_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA4_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "4" "Game_LMA4_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 67720, left 24
+Collecting edges...
+72 edges
+Sorting...
+Finding seams...X
+0 seams
+Running denoiserOIDN c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA1_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA1_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "1" "Game_LMA1_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 67720, left 12
+Collecting edges...
+36 edges
+Sorting...
+Finding seams...X
+0 seams
+Running denoiserOIDN c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LM0_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LM0_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "0" "Game_LM0_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 67720, left 12
+Collecting edges...
+36 edges
+Sorting...
+Finding seams...X
+0 seams
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA3_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/BakeryLightmaps/Game_LMA3_final.hdr" 1024
+Initializing D3D...
+Done
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA2_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/BakeryLightmaps/Game_LMA2_final.hdr" 1024
+Initializing D3D...
+Done
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA4_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/BakeryLightmaps/Game_LMA4_final.hdr" 1024
+Initializing D3D...
+Done
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA1_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/BakeryLightmaps/Game_LMA1_final.hdr" 1024
+Initializing D3D...
+Done
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LM0_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/BakeryLightmaps/Game_LM0_final.hdr" 1024
+Initializing D3D...
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Running ftraceRTX.exe interactive "C:\Users\Barty\AppData\Local\Temp\frender" a 4 0 0 preview.bin
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for Game_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Game_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Game_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Game_LMA3 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Game_LMA4 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LMA3.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LMA4.lz4" 2 0 4 0
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LM0.lz4" 2 0 0 0
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\Barty\AppData\Local\Temp\frender" "PointBatch_2_0_1" 4 0 2 batchpointlight_2_0_1.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\Barty\AppData\Local\Temp\frender" "PointBatch_4_0_1" 4 0 4 batchpointlight_4_0_1.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4" 4 0 4 comp_4.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_diffuse" 4 16 3 "gi_Game_LMA30.bin" "Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_diffuse" 4 16 2 "gi_Game_LMA20.bin" "Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4_diffuse" 4 16 4 "gi_Game_LMA40.bin" "Game_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA10.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_diffuse" 4 16 0 "gi_Game_LM00.bin" "Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_diffuse" 4 16 3 "gi_Game_LMA31.bin" "Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_diffuse" 4 16 2 "gi_Game_LMA21.bin" "Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4_diffuse" 4 16 4 "gi_Game_LMA41.bin" "Game_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA11.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_diffuse" 4 16 0 "gi_Game_LM01.bin" "Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_diffuse" 4 16 3 "gi_Game_LMA32.bin" "Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_diffuse" 4 16 2 "gi_Game_LMA22.bin" "Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4_diffuse" 4 16 4 "gi_Game_LMA42.bin" "Game_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA12.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_diffuse" 4 16 0 "gi_Game_LM02.bin" "Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_diffuse" 4 16 3 "gi_Game_LMA33.bin" "Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_diffuse" 4 16 2 "gi_Game_LMA23.bin" "Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4_diffuse" 4 16 4 "gi_Game_LMA43.bin" "Game_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA13.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_diffuse" 4 16 0 "gi_Game_LM03.bin" "Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_final" 20 16 3 "gi_Game_LMA34.bin" "Game_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_final" 20 16 2 "gi_Game_LMA24.bin" "Game_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4_final" 20 16 4 "gi_Game_LMA44.bin" "Game_LMA4_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_final" 20 16 1 "gi_Game_LMA14.bin" "Game_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_final" 20 16 0 "gi_Game_LM04.bin" "Game_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX add "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_final_HDR.lz4" 4 0 3 comp_indirect3.bin
+Running ftraceRTX add "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_final_HDR.lz4" 4 0 2 comp_indirect2.bin
+Running ftraceRTX add "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4_final_HDR.lz4" 4 0 4 comp_indirect4.bin
+Running ftraceRTX add "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_final_HDR.lz4" 4 0 1 comp_indirect1.bin
+Running ftraceRTX add "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_final_HDR.lz4" 4 0 0 comp_indirect0.bin
+Running denoiserOIDN c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA3_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA3_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "3" "Game_LMA3_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 67720, left 240
+Collecting edges...
+720 edges
+Sorting...
+Finding seams...X
+0 seams
+Running denoiserOIDN c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA2_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA2_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "2" "Game_LMA2_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 67720, left 16642
+Collecting edges...
+46710 edges
+Sorting...
+Finding seams...X
+718 seams
+Generating mesh...
+Initializing D3D...
+Selected device: NVIDIA GeForce RTX 4090
+Loaded vertex shader: seamfix.vso
+Loaded pixel shader: debugLines.pso
+Loading half-float lightmap...
+Rendering...
+Saving...
+Running denoiserOIDN c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA4_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA4_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "4" "Game_LMA4_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 67720, left 24
+Collecting edges...
+72 edges
+Sorting...
+Finding seams...X
+0 seams
+Running denoiserOIDN c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA1_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA1_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "1" "Game_LMA1_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 67720, left 12
+Collecting edges...
+36 edges
+Sorting...
+Finding seams...X
+0 seams
+Running denoiserOIDN c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LM0_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LM0_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "0" "Game_LM0_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 67720, left 12
+Collecting edges...
+36 edges
+Sorting...
+Finding seams...X
+0 seams
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA3_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/BakeryLightmaps/Game_LMA3_final.hdr" 1024
+Initializing D3D...
+Done
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA2_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/BakeryLightmaps/Game_LMA2_final.hdr" 1024
+Initializing D3D...
+Done
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA4_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/BakeryLightmaps/Game_LMA4_final.hdr" 1024
+Initializing D3D...
+Done
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA1_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/BakeryLightmaps/Game_LMA1_final.hdr" 1024
+Initializing D3D...
+Done
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LM0_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/BakeryLightmaps/Game_LM0_final.hdr" 1024
+Initializing D3D...
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for Game_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Game_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Game_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Game_LMA3 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Game_LMA4 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LMA3.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LMA4.lz4" 2 0 4 0
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LM0.lz4" 2 0 0 0
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\Barty\AppData\Local\Temp\frender" "PointBatch_2_0_1" 4 0 2 batchpointlight_2_0_1.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\Barty\AppData\Local\Temp\frender" "PointBatch_4_0_1" 4 0 4 batchpointlight_4_0_1.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4" 4 0 4 comp_4.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_diffuse" 4 16 3 "gi_Game_LMA30.bin" "Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_diffuse" 4 16 2 "gi_Game_LMA20.bin" "Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4_diffuse" 4 16 4 "gi_Game_LMA40.bin" "Game_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA10.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_diffuse" 4 16 0 "gi_Game_LM00.bin" "Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_diffuse" 4 16 3 "gi_Game_LMA31.bin" "Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_diffuse" 4 16 2 "gi_Game_LMA21.bin" "Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4_diffuse" 4 16 4 "gi_Game_LMA41.bin" "Game_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA11.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_diffuse" 4 16 0 "gi_Game_LM01.bin" "Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_diffuse" 4 16 3 "gi_Game_LMA32.bin" "Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_diffuse" 4 16 2 "gi_Game_LMA22.bin" "Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4_diffuse" 4 16 4 "gi_Game_LMA42.bin" "Game_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA12.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_diffuse" 4 16 0 "gi_Game_LM02.bin" "Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_diffuse" 4 16 3 "gi_Game_LMA33.bin" "Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_diffuse" 4 16 2 "gi_Game_LMA23.bin" "Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4_diffuse" 4 16 4 "gi_Game_LMA43.bin" "Game_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA13.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_diffuse" 4 16 0 "gi_Game_LM03.bin" "Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_final" 20 16 3 "gi_Game_LMA34.bin" "Game_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_final" 20 16 2 "gi_Game_LMA24.bin" "Game_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4_final" 20 16 4 "gi_Game_LMA44.bin" "Game_LMA4_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_final" 20 16 1 "gi_Game_LMA14.bin" "Game_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_final" 20 16 0 "gi_Game_LM04.bin" "Game_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX add "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_final_HDR.lz4" 4 0 3 comp_indirect3.bin
+Running ftraceRTX add "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_final_HDR.lz4" 4 0 2 comp_indirect2.bin
+Running ftraceRTX add "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4_final_HDR.lz4" 4 0 4 comp_indirect4.bin
+Running ftraceRTX add "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_final_HDR.lz4" 4 0 1 comp_indirect1.bin
+Running ftraceRTX add "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_final_HDR.lz4" 4 0 0 comp_indirect0.bin
+Running denoiserOIDN c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA3_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA3_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "3" "Game_LMA3_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 67720, left 240
+Collecting edges...
+720 edges
+Sorting...
+Finding seams...X
+0 seams
+Running denoiserOIDN c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA2_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA2_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "2" "Game_LMA2_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 67720, left 16642
+Collecting edges...
+46710 edges
+Sorting...
+Finding seams...X
+718 seams
+Generating mesh...
+Initializing D3D...
+Selected device: NVIDIA GeForce RTX 4090
+Loaded vertex shader: seamfix.vso
+Loaded pixel shader: debugLines.pso
+Loading half-float lightmap...
+Rendering...
+Saving...
+Running denoiserOIDN c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA4_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA4_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "4" "Game_LMA4_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 67720, left 24
+Collecting edges...
+72 edges
+Sorting...
+Finding seams...X
+0 seams
+Running denoiserOIDN c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA1_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA1_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "1" "Game_LMA1_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 67720, left 12
+Collecting edges...
+36 edges
+Sorting...
+Finding seams...X
+0 seams
+Running denoiserOIDN c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LM0_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LM0_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "0" "Game_LM0_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 67720, left 12
+Collecting edges...
+36 edges
+Sorting...
+Finding seams...X
+0 seams
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA3_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/BakeryLightmaps/Game_LMA3_final.hdr" 1024
+Initializing D3D...
+Done
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA2_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/BakeryLightmaps/Game_LMA2_final.hdr" 1024
+Initializing D3D...
+Done
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA4_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/BakeryLightmaps/Game_LMA4_final.hdr" 1024
+Initializing D3D...
+Done
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA1_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/BakeryLightmaps/Game_LMA1_final.hdr" 1024
+Initializing D3D...
+Done
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LM0_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/BakeryLightmaps/Game_LM0_final.hdr" 1024
+Initializing D3D...
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for Game_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Game_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Game_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Game_LMA3 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Game_LMA4 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LMA3.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LMA4.lz4" 2 0 4 0
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LM0.lz4" 2 0 0 0
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\Barty\AppData\Local\Temp\frender" "PointBatch_2_0_0" 12 0 2 batchpointlight_2_0_0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\Barty\AppData\Local\Temp\frender" "PointBatch_2_1_1" 12 0 2 batchpointlight_2_1_1.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\Barty\AppData\Local\Temp\frender" "PointBatch_4_0_0" 12 0 4 batchpointlight_4_0_0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\Barty\AppData\Local\Temp\frender" "PointBatch_4_1_1" 12 0 4 batchpointlight_4_1_1.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4" 4 0 4 comp_4.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_diffuse" 4 16 3 "gi_Game_LMA30.bin" "Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_diffuse" 4 16 2 "gi_Game_LMA20.bin" "Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4_diffuse" 4 16 4 "gi_Game_LMA40.bin" "Game_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA10.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_diffuse" 4 16 0 "gi_Game_LM00.bin" "Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_diffuse" 4 16 3 "gi_Game_LMA31.bin" "Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_diffuse" 4 16 2 "gi_Game_LMA21.bin" "Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4_diffuse" 4 16 4 "gi_Game_LMA41.bin" "Game_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA11.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_diffuse" 4 16 0 "gi_Game_LM01.bin" "Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_diffuse" 4 16 3 "gi_Game_LMA32.bin" "Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_diffuse" 4 16 2 "gi_Game_LMA22.bin" "Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4_diffuse" 4 16 4 "gi_Game_LMA42.bin" "Game_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA12.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_diffuse" 4 16 0 "gi_Game_LM02.bin" "Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_diffuse" 4 16 3 "gi_Game_LMA33.bin" "Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_diffuse" 4 16 2 "gi_Game_LMA23.bin" "Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4_diffuse" 4 16 4 "gi_Game_LMA43.bin" "Game_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA13.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_diffuse" 4 16 0 "gi_Game_LM03.bin" "Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_final" 20 16 3 "gi_Game_LMA34.bin" "Game_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_final" 20 16 2 "gi_Game_LMA24.bin" "Game_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4_final" 20 16 4 "gi_Game_LMA44.bin" "Game_LMA4_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_final" 20 16 1 "gi_Game_LMA14.bin" "Game_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_final" 20 16 0 "gi_Game_LM04.bin" "Game_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX add "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_final_HDR.lz4" 4 0 3 comp_indirect3.bin
+Running ftraceRTX add "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_final_HDR.lz4" 4 0 2 comp_indirect2.bin
+Running ftraceRTX add "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4_final_HDR.lz4" 4 0 4 comp_indirect4.bin
+Running ftraceRTX add "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_final_HDR.lz4" 4 0 1 comp_indirect1.bin
+Running ftraceRTX add "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_final_HDR.lz4" 4 0 0 comp_indirect0.bin
+Running denoiserOIDN c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA3_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA3_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "3" "Game_LMA3_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 67720, left 240
+Collecting edges...
+720 edges
+Sorting...
+Finding seams...X
+0 seams
+Running denoiserOIDN c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA2_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA2_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "2" "Game_LMA2_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 67720, left 16642
+Collecting edges...
+46710 edges
+Sorting...
+Finding seams...X
+718 seams
+Generating mesh...
+Initializing D3D...
+Selected device: NVIDIA GeForce RTX 4090
+Loaded vertex shader: seamfix.vso
+Loaded pixel shader: debugLines.pso
+Loading half-float lightmap...
+Rendering...
+Saving...
+Running denoiserOIDN c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA4_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA4_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "4" "Game_LMA4_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 67720, left 24
+Collecting edges...
+72 edges
+Sorting...
+Finding seams...X
+0 seams
+Running denoiserOIDN c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA1_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA1_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "1" "Game_LMA1_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 67720, left 12
+Collecting edges...
+36 edges
+Sorting...
+Finding seams...X
+0 seams
+Running denoiserOIDN c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LM0_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LM0_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "0" "Game_LM0_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 67720, left 12
+Collecting edges...
+36 edges
+Sorting...
+Finding seams...X
+0 seams
+Running combineMasks "C:/Users/Barty/Documents/ArcadePanic/Assets/BakeryLightmaps/Game_LMA2_mask.tga" "C:\Users\Barty\AppData\Local\Temp\frender/masks_2.bin" "C:\Users\Barty\AppData\Local\Temp\frender/"
+Channel 0
+Loading PointBatch_2_1_1_Mask.lz4
+Channel 1
+Loading PointBatch_2_0_0_Mask.lz4
+Channel 2
+Channel 3
+Done
+Running combineMasks "C:/Users/Barty/Documents/ArcadePanic/Assets/BakeryLightmaps/Game_LMA4_mask.tga" "C:\Users\Barty\AppData\Local\Temp\frender/masks_4.bin" "C:\Users\Barty\AppData\Local\Temp\frender/"
+Channel 0
+Loading PointBatch_4_1_1_Mask.lz4
+Channel 1
+Loading PointBatch_4_0_0_Mask.lz4
+Channel 2
+Channel 3
+Done
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA3_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/BakeryLightmaps/Game_LMA3_final.hdr" 1024
+Initializing D3D...
+Done
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA2_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/BakeryLightmaps/Game_LMA2_final.hdr" 1024
+Initializing D3D...
+Done
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA4_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/BakeryLightmaps/Game_LMA4_final.hdr" 1024
+Initializing D3D...
+Done
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA1_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/BakeryLightmaps/Game_LMA1_final.hdr" 1024
+Initializing D3D...
+Done
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LM0_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/BakeryLightmaps/Game_LM0_final.hdr" 1024
+Initializing D3D...
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for Game_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Game_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Game_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Game_LMA3 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Game_LMA4 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LMA4.lz4" 2 0 4 0
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LMA3.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LMA2.lz4" 2 0 2 0
+Running ftraceRTX ao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_ao" 8 16 0
+Running ftraceRTX ao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4_ao" 8 16 4
+Running ftraceRTX ao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_ao" 8 16 1
+Running ftraceRTX ao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_ao" 8 16 3
+Running ftraceRTX ao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_ao" 8 16 2
+Running ftraceRTX batchpointlightlegacy "C:\Users\Barty\AppData\Local\Temp\frender" "PointBatch_0_0_1" 4 0 0 batchpointlight_0_0_1.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\Barty\AppData\Local\Temp\frender" "PointBatch_4_0_1" 4 0 4 batchpointlight_4_0_1.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4" 4 0 4 comp_4.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_diffuse" 4 16 0 "gi_Game_LM00.bin" "Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4_diffuse" 4 16 4 "gi_Game_LMA40.bin" "Game_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA10.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_diffuse" 4 16 3 "gi_Game_LMA30.bin" "Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_diffuse" 4 16 2 "gi_Game_LMA20.bin" "Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_diffuse" 4 16 0 "gi_Game_LM01.bin" "Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4_diffuse" 4 16 4 "gi_Game_LMA41.bin" "Game_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA11.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_diffuse" 4 16 3 "gi_Game_LMA31.bin" "Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_diffuse" 4 16 2 "gi_Game_LMA21.bin" "Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_diffuse" 4 16 0 "gi_Game_LM02.bin" "Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4_diffuse" 4 16 4 "gi_Game_LMA42.bin" "Game_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA12.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_diffuse" 4 16 3 "gi_Game_LMA32.bin" "Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_diffuse" 4 16 2 "gi_Game_LMA22.bin" "Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_diffuse" 4 16 0 "gi_Game_LM03.bin" "Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4_diffuse" 4 16 4 "gi_Game_LMA43.bin" "Game_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA13.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_diffuse" 4 16 3 "gi_Game_LMA33.bin" "Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_diffuse" 4 16 2 "gi_Game_LMA23.bin" "Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_final" 4 16 0 "gi_Game_LM04.bin" "Game_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4_final" 4 16 4 "gi_Game_LMA44.bin" "Game_LMA4_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_final" 4 16 1 "gi_Game_LMA14.bin" "Game_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_final" 4 16 3 "gi_Game_LMA34.bin" "Game_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_final" 4 16 2 "gi_Game_LMA24.bin" "Game_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_final_HDR.lz4" 4 0 0 addao_0.bin
+Running denoiserOIDN2 c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LM0_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LM0_final_HDR.lz4" 2048 1
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "0" "Game_LM0_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 67720, left 16642
+Collecting edges...
+46710 edges
+Sorting...
+Finding seams...X
+735 seams
+Generating mesh...
+Initializing D3D...
+Selected device: NVIDIA GeForce RTX 4090
+Loaded vertex shader: seamfix.vso
+Loaded pixel shader: debugLines.pso
+Loading half-float lightmap...
+Rendering...
+Saving...
+Running ftraceRTX addao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4_final_HDR.lz4" 4 0 4 addao_4.bin
+Running denoiserOIDN2 c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA4_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA4_final_HDR.lz4" 2048 1
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "4" "Game_LMA4_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 67720, left 12
+Collecting edges...
+36 edges
+Sorting...
+Finding seams...X
+0 seams
+Running ftraceRTX addao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_final_HDR.lz4" 4 0 1 addao_1.bin
+Running denoiserOIDN2 c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA1_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA1_final_HDR.lz4" 2048 1
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "1" "Game_LMA1_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 67720, left 252
+Collecting edges...
+756 edges
+Sorting...
+Finding seams...X
+0 seams
+Running ftraceRTX addao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_final_HDR.lz4" 4 0 3 addao_3.bin
+Running denoiserOIDN2 c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA3_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA3_final_HDR.lz4" 2048 1
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "3" "Game_LMA3_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 67720, left 12
+Collecting edges...
+36 edges
+Sorting...
+Finding seams...X
+0 seams
+Running ftraceRTX addao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_final_HDR.lz4" 4 0 2 addao_2.bin
+Running denoiserOIDN2 c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA2_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA2_final_HDR.lz4" 2048 1
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "2" "Game_LMA2_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 67720, left 12
+Collecting edges...
+36 edges
+Sorting...
+Finding seams...X
+0 seams
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LM0_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/BakeryLightmaps/Game_LM0_final.hdr" 1024
+Initializing D3D...
+Done
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA4_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/BakeryLightmaps/Game_LMA4_final.hdr" 1024
+Initializing D3D...
+Done
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA1_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/BakeryLightmaps/Game_LMA1_final.hdr" 1024
+Initializing D3D...
+Done
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA3_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/BakeryLightmaps/Game_LMA3_final.hdr" 1024
+Initializing D3D...
+Done
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA2_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/BakeryLightmaps/Game_LMA2_final.hdr" 1024
+Initializing D3D...
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Running ftraceRTX.exe interactive "C:\Users\Barty\AppData\Local\Temp\frender" a 4 0 0 preview.bin
+Running ftraceRTX.exe interactive "C:\Users\Barty\AppData\Local\Temp\frender" a 4 0 0 preview.bin
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Running ftraceRTX.exe interactive "C:\Users\Barty\AppData\Local\Temp\frender" a 4 0 0 preview.bin
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Running ftraceRTX.exe interactive "C:\Users\Barty\AppData\Local\Temp\frender" a 4 0 0 preview.bin
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for Game_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Game_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LM0.lz4" 2 0 0 0
+Running ftraceRTX ao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_ao" 8 16 1
+Running ftraceRTX ao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_ao" 8 16 0
+Running ftraceRTX batchpointlightlegacy "C:\Users\Barty\AppData\Local\Temp\frender" "PointBatch_1_0_1" 4 0 1 batchpointlight_1_0_1.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\Barty\AppData\Local\Temp\frender" "PointBatch_0_0_1" 4 0 0 batchpointlight_0_0_1.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA10.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_diffuse" 4 16 0 "gi_Game_LM00.bin" "Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA11.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_diffuse" 4 16 0 "gi_Game_LM01.bin" "Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA12.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_diffuse" 4 16 0 "gi_Game_LM02.bin" "Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA13.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_diffuse" 4 16 0 "gi_Game_LM03.bin" "Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_final" 4 16 1 "gi_Game_LMA14.bin" "Game_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_final" 4 16 0 "gi_Game_LM04.bin" "Game_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_final_HDR.lz4" 4 0 1 addao_1.bin
+Running denoiserOIDN2 c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA1_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA1_final_HDR.lz4" 2048 1
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "1" "Game_LMA1_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 102972, left 13427
+Collecting edges...
+39861 edges
+Sorting...
+Finding seams...X
+665 seams
+Generating mesh...
+Initializing D3D...
+Selected device: NVIDIA GeForce RTX 4090
+Loaded vertex shader: seamfix.vso
+Loaded pixel shader: debugLines.pso
+Loading half-float lightmap...
+Rendering...
+Saving...
+Running ftraceRTX addao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_final_HDR.lz4" 4 0 0 addao_0.bin
+Running denoiserOIDN2 c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LM0_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LM0_final_HDR.lz4" 2048 1
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "0" "Game_LM0_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 102972, left 12316
+Collecting edges...
+34152 edges
+Sorting...
+Finding seams...X
+74 seams
+Generating mesh...
+Initializing D3D...
+Selected device: NVIDIA GeForce RTX 4090
+Loaded vertex shader: seamfix.vso
+Loaded pixel shader: debugLines.pso
+Loading half-float lightmap...
+Rendering...
+Saving...
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA1_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/BakeryLightmaps/Game_LMA1_final.hdr" 1024
+Initializing D3D...
+Done
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LM0_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/BakeryLightmaps/Game_LM0_final.hdr" 1024
+Initializing D3D...
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for Game_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Game_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Game_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Game_LMA3 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LMA3.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LM0.lz4" 2 0 0 0
+Running ftraceRTX ao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_ao" 8 16 2
+Running ftraceRTX ao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_ao" 8 16 3
+Running ftraceRTX ao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_ao" 8 16 1
+Running ftraceRTX ao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_ao" 8 16 0
+Running ftraceRTX batchpointlightlegacy "C:\Users\Barty\AppData\Local\Temp\frender" "PointBatch_2_0_1" 4 0 2 batchpointlight_2_0_1.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\Barty\AppData\Local\Temp\frender" "PointBatch_3_0_1" 4 0 3 batchpointlight_3_0_1.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\Barty\AppData\Local\Temp\frender" "PointBatch_1_0_1" 4 0 1 batchpointlight_1_0_1.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\Barty\AppData\Local\Temp\frender" "PointBatch_0_0_1" 4 0 0 batchpointlight_0_0_1.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_diffuse" 4 16 2 "gi_Game_LMA20.bin" "Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_diffuse" 4 16 3 "gi_Game_LMA30.bin" "Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA10.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_diffuse" 4 16 0 "gi_Game_LM00.bin" "Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_diffuse" 4 16 2 "gi_Game_LMA21.bin" "Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_diffuse" 4 16 3 "gi_Game_LMA31.bin" "Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA11.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for Game_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Game_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Game_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Game_LMA3 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LMA3.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LM0.lz4" 2 0 0 0
+Running ftraceRTX ao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_ao" 8 16 2
+Running ftraceRTX ao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_ao" 8 16 3
+Running ftraceRTX ao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_ao" 8 16 1
+Running ftraceRTX ao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_ao" 8 16 0
+Running ftraceRTX batchpointlightlegacy "C:\Users\Barty\AppData\Local\Temp\frender" "PointBatch_2_0_1" 4 0 2 batchpointlight_2_0_1.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\Barty\AppData\Local\Temp\frender" "PointBatch_3_0_1" 4 0 3 batchpointlight_3_0_1.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\Barty\AppData\Local\Temp\frender" "PointBatch_1_0_1" 4 0 1 batchpointlight_1_0_1.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\Barty\AppData\Local\Temp\frender" "PointBatch_0_0_1" 4 0 0 batchpointlight_0_0_1.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_diffuse" 4 16 2 "gi_Game_LMA20.bin" "Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_diffuse" 4 16 3 "gi_Game_LMA30.bin" "Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA10.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_diffuse" 4 16 0 "gi_Game_LM00.bin" "Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_diffuse" 4 16 2 "gi_Game_LMA21.bin" "Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_diffuse" 4 16 3 "gi_Game_LMA31.bin" "Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA11.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_diffuse" 4 16 0 "gi_Game_LM01.bin" "Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_diffuse" 4 16 2 "gi_Game_LMA22.bin" "Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_diffuse" 4 16 3 "gi_Game_LMA32.bin" "Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA12.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_diffuse" 4 16 0 "gi_Game_LM02.bin" "Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_diffuse" 4 16 2 "gi_Game_LMA23.bin" "Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_diffuse" 4 16 3 "gi_Game_LMA33.bin" "Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA13.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_diffuse" 4 16 0 "gi_Game_LM03.bin" "Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_final" 4 16 2 "gi_Game_LMA24.bin" "Game_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_final" 4 16 3 "gi_Game_LMA34.bin" "Game_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_final" 4 16 1 "gi_Game_LMA14.bin" "Game_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_final" 4 16 0 "gi_Game_LM04.bin" "Game_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_final_HDR.lz4" 4 0 2 addao_2.bin
+Running denoiserOIDN c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA2_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA2_final_HDR.lz4" 256 1
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "2" "Game_LMA2_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 102972, left 2414
+Collecting edges...
+7110 edges
+Sorting...
+Finding seams...X
+54 seams
+Generating mesh...
+Initializing D3D...
+Selected device: NVIDIA GeForce RTX 4090
+Loaded vertex shader: seamfix.vso
+Loaded pixel shader: debugLines.pso
+Loading half-float lightmap...
+Rendering...
+Saving...
+Running ftraceRTX addao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_final_HDR.lz4" 4 0 3 addao_3.bin
+Running denoiserOIDN c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA3_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA3_final_HDR.lz4" 128 1
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "3" "Game_LMA3_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 102972, left 382
+Collecting edges...
+1146 edges
+Sorting...
+Finding seams...X
+11 seams
+Generating mesh...
+Initializing D3D...
+Selected device: NVIDIA GeForce RTX 4090
+Loaded vertex shader: seamfix.vso
+Loaded pixel shader: debugLines.pso
+Loading half-float lightmap...
+Rendering...
+Saving...
+Running ftraceRTX addao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_final_HDR.lz4" 4 0 1 addao_1.bin
+Running denoiserOIDN c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA1_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA1_final_HDR.lz4" 1024 1
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "1" "Game_LMA1_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 102972, left 15003
+Collecting edges...
+41925 edges
+Sorting...
+Finding seams...X
+738 seams
+Generating mesh...
+Initializing D3D...
+Selected device: NVIDIA GeForce RTX 4090
+Loaded vertex shader: seamfix.vso
+Loaded pixel shader: debugLines.pso
+Loading half-float lightmap...
+Rendering...
+Saving...
+Running ftraceRTX addao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_final_HDR.lz4" 4 0 0 addao_0.bin
+Running denoiserOIDN c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LM0_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LM0_final_HDR.lz4" 2048 1
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "0" "Game_LM0_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 102972, left 7944
+Collecting edges...
+23832 edges
+Sorting...
+Finding seams...X
+0 seams
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA2_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/BakeryLightmaps/Game_LMA2_final.hdr" 1024
+Initializing D3D...
+Done
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA3_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/BakeryLightmaps/Game_LMA3_final.hdr" 1024
+Initializing D3D...
+Done
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA1_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/BakeryLightmaps/Game_LMA1_final.hdr" 1024
+Initializing D3D...
+Done
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LM0_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/BakeryLightmaps/Game_LM0_final.hdr" 1024
+Initializing D3D...
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Rendering UV GBuffer for Game_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Game_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Game_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Game_LMA3 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LMA3.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LM0.lz4" 2 0 0 0
+Running ftraceRTX ao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_ao" 8 16 2
+Running ftraceRTX ao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_ao" 8 16 3
+Running ftraceRTX ao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_ao" 8 16 1
+Running ftraceRTX ao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_ao" 8 16 0
+Running ftraceRTX batchpointlightlegacy "C:\Users\Barty\AppData\Local\Temp\frender" "PointBatch_2_0_1" 4 0 2 batchpointlight_2_0_1.bin
+Running ftraceRTX skycubemap "C:\Users\Barty\AppData\Local\Temp\frender" "light_1_2" 4 0 2 sky0.bin
+Running ftraceRTX sun "C:\Users\Barty\AppData\Local\Temp\frender" "light_2_2" 4 0 2 direct0.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\Barty\AppData\Local\Temp\frender" "PointBatch_3_0_1" 4 0 3 batchpointlight_3_0_1.bin
+Running ftraceRTX skycubemap "C:\Users\Barty\AppData\Local\Temp\frender" "light_1_3" 4 0 3 sky0.bin
+Running ftraceRTX sun "C:\Users\Barty\AppData\Local\Temp\frender" "light_2_3" 4 0 3 direct0.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\Barty\AppData\Local\Temp\frender" "PointBatch_1_0_1" 4 0 1 batchpointlight_1_0_1.bin
+Running ftraceRTX skycubemap "C:\Users\Barty\AppData\Local\Temp\frender" "light_1_1" 4 0 1 sky0.bin
+Running ftraceRTX sun "C:\Users\Barty\AppData\Local\Temp\frender" "light_2_1" 4 0 1 direct0.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\Barty\AppData\Local\Temp\frender" "PointBatch_0_0_1" 4 0 0 batchpointlight_0_0_1.bin
+Running ftraceRTX skycubemap "C:\Users\Barty\AppData\Local\Temp\frender" "light_1_0" 4 0 0 sky0.bin
+Running ftraceRTX sun "C:\Users\Barty\AppData\Local\Temp\frender" "light_2_0" 4 0 0 direct0.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_diffuse" 4 16 2 "gi_Game_LMA20.bin" "Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_diffuse" 4 16 3 "gi_Game_LMA30.bin" "Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA10.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_diffuse" 4 16 0 "gi_Game_LM00.bin" "Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_diffuse" 4 16 2 "gi_Game_LMA21.bin" "Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_diffuse" 4 16 3 "gi_Game_LMA31.bin" "Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA11.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_diffuse" 4 16 0 "gi_Game_LM01.bin" "Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_diffuse" 4 16 2 "gi_Game_LMA22.bin" "Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_diffuse" 4 16 3 "gi_Game_LMA32.bin" "Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA12.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_diffuse" 4 16 0 "gi_Game_LM02.bin" "Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_diffuse" 4 16 2 "gi_Game_LMA23.bin" "Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_diffuse" 4 16 3 "gi_Game_LMA33.bin" "Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA13.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_diffuse" 4 16 0 "gi_Game_LM03.bin" "Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_final" 4 16 2 "gi_Game_LMA24.bin" "Game_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_final" 4 16 3 "gi_Game_LMA34.bin" "Game_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_final" 4 16 1 "gi_Game_LMA14.bin" "Game_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_final" 4 16 0 "gi_Game_LM04.bin" "Game_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_final_HDR.lz4" 4 0 2 addao_2.bin
+Running denoiserOIDN c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA2_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA2_final_HDR.lz4" 256 1
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "2" "Game_LMA2_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 102972, left 2414
+Collecting edges...
+7110 edges
+Sorting...
+Finding seams...X
+54 seams
+Generating mesh...
+Initializing D3D...
+Selected device: NVIDIA GeForce RTX 4090
+Loaded vertex shader: seamfix.vso
+Loaded pixel shader: debugLines.pso
+Loading half-float lightmap...
+Rendering...
+Saving...
+Running ftraceRTX addao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_final_HDR.lz4" 4 0 3 addao_3.bin
+Running denoiserOIDN c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA3_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA3_final_HDR.lz4" 128 1
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "3" "Game_LMA3_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 102972, left 382
+Collecting edges...
+1146 edges
+Sorting...
+Finding seams...X
+11 seams
+Generating mesh...
+Initializing D3D...
+Selected device: NVIDIA GeForce RTX 4090
+Loaded vertex shader: seamfix.vso
+Loaded pixel shader: debugLines.pso
+Loading half-float lightmap...
+Rendering...
+Saving...
+Running ftraceRTX addao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_final_HDR.lz4" 4 0 1 addao_1.bin
+Running denoiserOIDN c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA1_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA1_final_HDR.lz4" 1024 1
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "1" "Game_LMA1_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 102972, left 15003
+Collecting edges...
+41925 edges
+Sorting...
+Finding seams...X
+738 seams
+Generating mesh...
+Initializing D3D...
+Selected device: NVIDIA GeForce RTX 4090
+Loaded vertex shader: seamfix.vso
+Loaded pixel shader: debugLines.pso
+Loading half-float lightmap...
+Rendering...
+Saving...
+Running ftraceRTX addao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_final_HDR.lz4" 4 0 0 addao_0.bin
+Running denoiserOIDN c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LM0_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LM0_final_HDR.lz4" 2048 1
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "0" "Game_LM0_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 102972, left 7944
+Collecting edges...
+23832 edges
+Sorting...
+Finding seams...X
+0 seams
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA2_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/Scenes/Game/Game_LMA2_final.hdr" 1024
+Initializing D3D...
+Done
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA3_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/Scenes/Game/Game_LMA3_final.hdr" 1024
+Initializing D3D...
+Done
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA1_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/Scenes/Game/Game_LMA1_final.hdr" 1024
+Initializing D3D...
+Done
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LM0_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/Scenes/Game/Game_LM0_final.hdr" 1024
+Initializing D3D...
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Rendering UV GBuffer for Game_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Game_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Game_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Game_LMA3 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LMA3.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LM0.lz4" 2 0 0 0
+Running ftraceRTX ao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_ao" 8 16 2
+Running ftraceRTX ao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_ao" 8 16 3
+Running ftraceRTX ao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_ao" 8 16 1
+Running ftraceRTX ao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_ao" 8 16 0
+Running ftraceRTX batchpointlightlegacy "C:\Users\Barty\AppData\Local\Temp\frender" "PointBatch_2_0_1" 4 0 2 batchpointlight_2_0_1.bin
+Running ftraceRTX skycubemap "C:\Users\Barty\AppData\Local\Temp\frender" "light_1_2" 4 0 2 sky0.bin
+Running ftraceRTX sun "C:\Users\Barty\AppData\Local\Temp\frender" "light_2_2" 4 0 2 direct0.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\Barty\AppData\Local\Temp\frender" "PointBatch_3_0_1" 4 0 3 batchpointlight_3_0_1.bin
+Running ftraceRTX skycubemap "C:\Users\Barty\AppData\Local\Temp\frender" "light_1_3" 4 0 3 sky0.bin
+Running ftraceRTX sun "C:\Users\Barty\AppData\Local\Temp\frender" "light_2_3" 4 0 3 direct0.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\Barty\AppData\Local\Temp\frender" "PointBatch_1_0_1" 4 0 1 batchpointlight_1_0_1.bin
+Running ftraceRTX skycubemap "C:\Users\Barty\AppData\Local\Temp\frender" "light_1_1" 4 0 1 sky0.bin
+Running ftraceRTX sun "C:\Users\Barty\AppData\Local\Temp\frender" "light_2_1" 4 0 1 direct0.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\Barty\AppData\Local\Temp\frender" "PointBatch_0_0_1" 4 0 0 batchpointlight_0_0_1.bin
+Running ftraceRTX skycubemap "C:\Users\Barty\AppData\Local\Temp\frender" "light_1_0" 4 0 0 sky0.bin
+Running ftraceRTX sun "C:\Users\Barty\AppData\Local\Temp\frender" "light_2_0" 4 0 0 direct0.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_diffuse" 4 16 2 "gi_Game_LMA20.bin" "Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_diffuse" 4 16 3 "gi_Game_LMA30.bin" "Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA10.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_diffuse" 4 16 0 "gi_Game_LM00.bin" "Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_diffuse" 4 16 2 "gi_Game_LMA21.bin" "Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_diffuse" 4 16 3 "gi_Game_LMA31.bin" "Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA11.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_diffuse" 4 16 0 "gi_Game_LM01.bin" "Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_diffuse" 4 16 2 "gi_Game_LMA22.bin" "Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_diffuse" 4 16 3 "gi_Game_LMA32.bin" "Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA12.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_diffuse" 4 16 0 "gi_Game_LM02.bin" "Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_diffuse" 4 16 2 "gi_Game_LMA23.bin" "Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_diffuse" 4 16 3 "gi_Game_LMA33.bin" "Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA13.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_diffuse" 4 16 0 "gi_Game_LM03.bin" "Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_final" 4 16 2 "gi_Game_LMA24.bin" "Game_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_final" 4 16 3 "gi_Game_LMA34.bin" "Game_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_final" 4 16 1 "gi_Game_LMA14.bin" "Game_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_final" 4 16 0 "gi_Game_LM04.bin" "Game_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_final_HDR.lz4" 4 0 2 addao_2.bin
+Running denoiserOIDN c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA2_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA2_final_HDR.lz4" 256 1
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "2" "Game_LMA2_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 102972, left 2414
+Collecting edges...
+7110 edges
+Sorting...
+Finding seams...X
+54 seams
+Generating mesh...
+Initializing D3D...
+Selected device: NVIDIA GeForce RTX 4090
+Loaded vertex shader: seamfix.vso
+Loaded pixel shader: debugLines.pso
+Loading half-float lightmap...
+Rendering...
+Saving...
+Running ftraceRTX addao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_final_HDR.lz4" 4 0 3 addao_3.bin
+Running denoiserOIDN c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA3_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA3_final_HDR.lz4" 128 1
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "3" "Game_LMA3_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 102972, left 382
+Collecting edges...
+1146 edges
+Sorting...
+Finding seams...X
+11 seams
+Generating mesh...
+Initializing D3D...
+Selected device: NVIDIA GeForce RTX 4090
+Loaded vertex shader: seamfix.vso
+Loaded pixel shader: debugLines.pso
+Loading half-float lightmap...
+Rendering...
+Saving...
+Running ftraceRTX addao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_final_HDR.lz4" 4 0 1 addao_1.bin
+Running denoiserOIDN c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA1_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA1_final_HDR.lz4" 1024 1
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "1" "Game_LMA1_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 102972, left 15003
+Collecting edges...
+41925 edges
+Sorting...
+Finding seams...X
+738 seams
+Generating mesh...
+Initializing D3D...
+Selected device: NVIDIA GeForce RTX 4090
+Loaded vertex shader: seamfix.vso
+Loaded pixel shader: debugLines.pso
+Loading half-float lightmap...
+Rendering...
+Saving...
+Running ftraceRTX addao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_final_HDR.lz4" 4 0 0 addao_0.bin
+Running denoiserOIDN c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LM0_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LM0_final_HDR.lz4" 2048 1
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "0" "Game_LM0_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 102972, left 7944
+Collecting edges...
+23832 edges
+Sorting...
+Finding seams...X
+0 seams
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA2_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/Scenes/Game/Game_LMA2_final.hdr" 1024
+Initializing D3D...
+Done
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA3_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/Scenes/Game/Game_LMA3_final.hdr" 1024
+Initializing D3D...
+Done
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA1_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/Scenes/Game/Game_LMA1_final.hdr" 1024
+Initializing D3D...
+Done
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LM0_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/Scenes/Game/Game_LM0_final.hdr" 1024
+Initializing D3D...
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Running ftraceRTX.exe interactive "C:\Users\Barty\AppData\Local\Temp\frender" a 4 0 0 preview.bin
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Rendering UV GBuffer for Game_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Game_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Game_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Game_LMA3 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Game_LMA4 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LMA3.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LMA4.lz4" 2 0 4 0
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LMA1.lz4" 2 0 1 0
+Running ftraceRTX ao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_ao" 8 16 2
+Running ftraceRTX ao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_ao" 8 16 3
+Running ftraceRTX ao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4_ao" 8 16 4
+Running ftraceRTX ao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_ao" 8 16 0
+Running ftraceRTX ao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_ao" 8 16 1
+Running ftraceRTX batchpointlightlegacy "C:\Users\Barty\AppData\Local\Temp\frender" "PointBatch_2_0_1" 4 0 2 batchpointlight_2_0_1.bin
+Running ftraceRTX skycubemap "C:\Users\Barty\AppData\Local\Temp\frender" "light_1_2" 4 0 2 sky0.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\Barty\AppData\Local\Temp\frender" "PointBatch_3_0_1" 4 0 3 batchpointlight_3_0_1.bin
+Running ftraceRTX skycubemap "C:\Users\Barty\AppData\Local\Temp\frender" "light_1_3" 4 0 3 sky0.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\Barty\AppData\Local\Temp\frender" "PointBatch_4_0_1" 4 0 4 batchpointlight_4_0_1.bin
+Running ftraceRTX skycubemap "C:\Users\Barty\AppData\Local\Temp\frender" "light_1_4" 4 0 4 sky0.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4" 4 0 4 comp_4.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\Barty\AppData\Local\Temp\frender" "PointBatch_0_0_1" 4 0 0 batchpointlight_0_0_1.bin
+Running ftraceRTX skycubemap "C:\Users\Barty\AppData\Local\Temp\frender" "light_1_0" 4 0 0 sky0.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX skycubemap "C:\Users\Barty\AppData\Local\Temp\frender" "light_1_1" 4 0 1 sky0.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_diffuse" 4 16 2 "gi_Game_LMA20.bin" "Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_diffuse" 4 16 3 "gi_Game_LMA30.bin" "Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4_diffuse" 4 16 4 "gi_Game_LMA40.bin" "Game_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_diffuse" 4 16 0 "gi_Game_LM00.bin" "Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA10.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_diffuse" 4 16 2 "gi_Game_LMA21.bin" "Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_diffuse" 4 16 3 "gi_Game_LMA31.bin" "Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4_diffuse" 4 16 4 "gi_Game_LMA41.bin" "Game_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_diffuse" 4 16 0 "gi_Game_LM01.bin" "Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA11.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_diffuse" 4 16 2 "gi_Game_LMA22.bin" "Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_diffuse" 4 16 3 "gi_Game_LMA32.bin" "Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4_diffuse" 4 16 4 "gi_Game_LMA42.bin" "Game_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_diffuse" 4 16 0 "gi_Game_LM02.bin" "Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA12.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_diffuse" 4 16 2 "gi_Game_LMA23.bin" "Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_diffuse" 4 16 3 "gi_Game_LMA33.bin" "Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4_diffuse" 4 16 4 "gi_Game_LMA43.bin" "Game_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_diffuse" 4 16 0 "gi_Game_LM03.bin" "Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA13.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_final" 4 16 2 "gi_Game_LMA24.bin" "Game_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_final" 4 16 3 "gi_Game_LMA34.bin" "Game_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4_final" 4 16 4 "gi_Game_LMA44.bin" "Game_LMA4_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_final" 4 16 0 "gi_Game_LM04.bin" "Game_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_final" 4 16 1 "gi_Game_LMA14.bin" "Game_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_final_HDR.lz4" 4 0 2 addao_2.bin
+Running denoiserOIDN c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA2_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA2_final_HDR.lz4" 512 1
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "2" "Game_LMA2_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 102972, left 6786
+Collecting edges...
+17430 edges
+Sorting...
+Finding seams...X
+678 seams
+Generating mesh...
+Initializing D3D...
+Selected device: NVIDIA GeForce RTX 4090
+Loaded vertex shader: seamfix.vso
+Loaded pixel shader: debugLines.pso
+Loading half-float lightmap...
+Rendering...
+Saving...
+Running ftraceRTX addao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_final_HDR.lz4" 4 0 3 addao_3.bin
+Running denoiserOIDN c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA3_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA3_final_HDR.lz4" 512 1
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "3" "Game_LMA3_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 102972, left 382
+Collecting edges...
+1146 edges
+Sorting...
+Finding seams...X
+11 seams
+Generating mesh...
+Initializing D3D...
+Selected device: NVIDIA GeForce RTX 4090
+Loaded vertex shader: seamfix.vso
+Loaded pixel shader: debugLines.pso
+Loading half-float lightmap...
+Rendering...
+Saving...
+Running ftraceRTX addao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4_final_HDR.lz4" 4 0 4 addao_4.bin
+Running denoiserOIDN c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA4_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA4_final_HDR.lz4" 512 1
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "4" "Game_LMA4_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 102972, left 9186
+Collecting edges...
+27270 edges
+Sorting...
+Finding seams...X
+596 seams
+Generating mesh...
+Initializing D3D...
+Selected device: NVIDIA GeForce RTX 4090
+Loaded vertex shader: seamfix.vso
+Loaded pixel shader: debugLines.pso
+Loading half-float lightmap...
+Rendering...
+Saving...
+Running ftraceRTX addao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_final_HDR.lz4" 4 0 0 addao_0.bin
+Running denoiserOIDN c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LM0_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LM0_final_HDR.lz4" 2048 1
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "0" "Game_LM0_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 102972, left 7944
+Collecting edges...
+23832 edges
+Sorting...
+Finding seams...X
+0 seams
+Running ftraceRTX addao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_final_HDR.lz4" 4 0 1 addao_1.bin
+Running denoiserOIDN c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA1_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA1_final_HDR.lz4" 2048 1
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "1" "Game_LMA1_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 102972, left 1445
+Collecting edges...
+4335 edges
+Sorting...
+Finding seams...X
+4 seams
+Generating mesh...
+Initializing D3D...
+Selected device: NVIDIA GeForce RTX 4090
+Loaded vertex shader: seamfix.vso
+Loaded pixel shader: debugLines.pso
+Loading half-float lightmap...
+Rendering...
+Saving...
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA2_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/Scenes/Game/Game_LMA2_final.hdr" 1024
+Initializing D3D...
+Done
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA3_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/Scenes/Game/Game_LMA3_final.hdr" 1024
+Initializing D3D...
+Done
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA4_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/Scenes/Game/Game_LMA4_final.hdr" 1024
+Initializing D3D...
+Done
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LM0_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/Scenes/Game/Game_LM0_final.hdr" 1024
+Initializing D3D...
+Done
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA1_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/Scenes/Game/Game_LMA1_final.hdr" 1024
+Initializing D3D...
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Rendering UV GBuffer for Game_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Game_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Game_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Game_LMA3 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Game_LMA4 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LMA3.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LMA4.lz4" 2 0 4 0
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LMA1.lz4" 2 0 1 0
+Running ftraceRTX ao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_ao" 8 16 2
+Running ftraceRTX ao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_ao" 8 16 3
+Running ftraceRTX ao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4_ao" 8 16 4
+Running ftraceRTX ao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_ao" 8 16 0
+Running ftraceRTX ao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_ao" 8 16 1
+Running ftraceRTX batchpointlightlegacy "C:\Users\Barty\AppData\Local\Temp\frender" "PointBatch_2_0_1" 4 0 2 batchpointlight_2_0_1.bin
+Running ftraceRTX skycubemap "C:\Users\Barty\AppData\Local\Temp\frender" "light_1_2" 4 0 2 sky0.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\Barty\AppData\Local\Temp\frender" "PointBatch_3_0_1" 4 0 3 batchpointlight_3_0_1.bin
+Running ftraceRTX skycubemap "C:\Users\Barty\AppData\Local\Temp\frender" "light_1_3" 4 0 3 sky0.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\Barty\AppData\Local\Temp\frender" "PointBatch_4_0_1" 4 0 4 batchpointlight_4_0_1.bin
+Running ftraceRTX skycubemap "C:\Users\Barty\AppData\Local\Temp\frender" "light_1_4" 4 0 4 sky0.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4" 4 0 4 comp_4.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\Barty\AppData\Local\Temp\frender" "PointBatch_0_0_1" 4 0 0 batchpointlight_0_0_1.bin
+Running ftraceRTX skycubemap "C:\Users\Barty\AppData\Local\Temp\frender" "light_1_0" 4 0 0 sky0.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX skycubemap "C:\Users\Barty\AppData\Local\Temp\frender" "light_1_1" 4 0 1 sky0.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_diffuse" 4 16 2 "gi_Game_LMA20.bin" "Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_diffuse" 4 16 3 "gi_Game_LMA30.bin" "Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4_diffuse" 4 16 4 "gi_Game_LMA40.bin" "Game_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_diffuse" 4 16 0 "gi_Game_LM00.bin" "Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA10.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_diffuse" 4 16 2 "gi_Game_LMA21.bin" "Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_diffuse" 4 16 3 "gi_Game_LMA31.bin" "Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4_diffuse" 4 16 4 "gi_Game_LMA41.bin" "Game_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_diffuse" 4 16 0 "gi_Game_LM01.bin" "Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA11.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_diffuse" 4 16 2 "gi_Game_LMA22.bin" "Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_diffuse" 4 16 3 "gi_Game_LMA32.bin" "Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4_diffuse" 4 16 4 "gi_Game_LMA42.bin" "Game_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_diffuse" 4 16 0 "gi_Game_LM02.bin" "Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA12.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_diffuse" 4 16 2 "gi_Game_LMA23.bin" "Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_diffuse" 4 16 3 "gi_Game_LMA33.bin" "Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4_diffuse" 4 16 4 "gi_Game_LMA43.bin" "Game_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_diffuse" 4 16 0 "gi_Game_LM03.bin" "Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA13.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_final" 4 16 2 "gi_Game_LMA24.bin" "Game_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_final" 4 16 3 "gi_Game_LMA34.bin" "Game_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4_final" 4 16 4 "gi_Game_LMA44.bin" "Game_LMA4_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_final" 4 16 0 "gi_Game_LM04.bin" "Game_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_final" 4 16 1 "gi_Game_LMA14.bin" "Game_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_final_HDR.lz4" 4 0 2 addao_2.bin
+Running denoiserOIDN c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA2_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA2_final_HDR.lz4" 512 1
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "2" "Game_LMA2_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 102972, left 6786
+Collecting edges...
+17430 edges
+Sorting...
+Finding seams...X
+678 seams
+Generating mesh...
+Initializing D3D...
+Selected device: NVIDIA GeForce RTX 4090
+Loaded vertex shader: seamfix.vso
+Loaded pixel shader: debugLines.pso
+Loading half-float lightmap...
+Rendering...
+Saving...
+Running ftraceRTX addao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_final_HDR.lz4" 4 0 3 addao_3.bin
+Running denoiserOIDN c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA3_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA3_final_HDR.lz4" 512 1
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "3" "Game_LMA3_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 102972, left 382
+Collecting edges...
+1146 edges
+Sorting...
+Finding seams...X
+11 seams
+Generating mesh...
+Initializing D3D...
+Selected device: NVIDIA GeForce RTX 4090
+Loaded vertex shader: seamfix.vso
+Loaded pixel shader: debugLines.pso
+Loading half-float lightmap...
+Rendering...
+Saving...
+Running ftraceRTX addao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4_final_HDR.lz4" 4 0 4 addao_4.bin
+Running denoiserOIDN c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA4_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA4_final_HDR.lz4" 512 1
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "4" "Game_LMA4_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 102972, left 9186
+Collecting edges...
+27270 edges
+Sorting...
+Finding seams...X
+596 seams
+Generating mesh...
+Initializing D3D...
+Selected device: NVIDIA GeForce RTX 4090
+Loaded vertex shader: seamfix.vso
+Loaded pixel shader: debugLines.pso
+Loading half-float lightmap...
+Rendering...
+Saving...
+Running ftraceRTX addao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_final_HDR.lz4" 4 0 0 addao_0.bin
+Running denoiserOIDN c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LM0_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LM0_final_HDR.lz4" 2048 1
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "0" "Game_LM0_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 102972, left 7944
+Collecting edges...
+23832 edges
+Sorting...
+Finding seams...X
+0 seams
+Running ftraceRTX addao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_final_HDR.lz4" 4 0 1 addao_1.bin
+Running denoiserOIDN c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA1_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA1_final_HDR.lz4" 2048 1
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "1" "Game_LMA1_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 102972, left 1445
+Collecting edges...
+4335 edges
+Sorting...
+Finding seams...X
+4 seams
+Generating mesh...
+Initializing D3D...
+Selected device: NVIDIA GeForce RTX 4090
+Loaded vertex shader: seamfix.vso
+Loaded pixel shader: debugLines.pso
+Loading half-float lightmap...
+Rendering...
+Saving...
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA2_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/Scenes/Game/Game_LMA2_final.hdr" 1024
+Initializing D3D...
+Done
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA3_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/Scenes/Game/Game_LMA3_final.hdr" 1024
+Initializing D3D...
+Done
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA4_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/Scenes/Game/Game_LMA4_final.hdr" 1024
+Initializing D3D...
+Done
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LM0_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/Scenes/Game/Game_LM0_final.hdr" 1024
+Initializing D3D...
+Done
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA1_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/Scenes/Game/Game_LMA1_final.hdr" 1024
+Initializing D3D...
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Rendering UV GBuffer for Game_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Game_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Game_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LM0.lz4" 2 0 0 0
+Running ftraceRTX ao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_ao" 8 16 2
+Running ftraceRTX ao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_ao" 8 16 1
+Running ftraceRTX ao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_ao" 8 16 0
+Running ftraceRTX batchpointlightlegacy "C:\Users\Barty\AppData\Local\Temp\frender" "PointBatch_2_0_1" 4 0 2 batchpointlight_2_0_1.bin
+Running ftraceRTX skycubemap "C:\Users\Barty\AppData\Local\Temp\frender" "light_1_2" 4 0 2 sky0.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\Barty\AppData\Local\Temp\frender" "PointBatch_1_0_1" 4 0 1 batchpointlight_1_0_1.bin
+Running ftraceRTX skycubemap "C:\Users\Barty\AppData\Local\Temp\frender" "light_1_1" 4 0 1 sky0.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\Barty\AppData\Local\Temp\frender" "PointBatch_0_0_1" 4 0 0 batchpointlight_0_0_1.bin
+Running ftraceRTX skycubemap "C:\Users\Barty\AppData\Local\Temp\frender" "light_1_0" 4 0 0 sky0.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_diffuse" 4 16 2 "gi_Game_LMA20.bin" "Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA10.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_diffuse" 4 16 0 "gi_Game_LM00.bin" "Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_diffuse" 4 16 2 "gi_Game_LMA21.bin" "Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA11.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_diffuse" 4 16 0 "gi_Game_LM01.bin" "Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_diffuse" 4 16 2 "gi_Game_LMA22.bin" "Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA12.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_diffuse" 4 16 0 "gi_Game_LM02.bin" "Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_diffuse" 4 16 2 "gi_Game_LMA23.bin" "Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA13.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_diffuse" 4 16 0 "gi_Game_LM03.bin" "Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_final" 4 16 2 "gi_Game_LMA24.bin" "Game_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_final" 4 16 1 "gi_Game_LMA14.bin" "Game_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_final" 4 16 0 "gi_Game_LM04.bin" "Game_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_final_HDR.lz4" 4 0 2 addao_2.bin
+Running denoiserOIDN2 c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA2_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA2_final_HDR.lz4" 1024 1
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "2" "Game_LMA2_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 102972, left 2414
+Collecting edges...
+7110 edges
+Sorting...
+Finding seams...X
+54 seams
+Generating mesh...
+Initializing D3D...
+Selected device: NVIDIA GeForce RTX 4090
+Loaded vertex shader: seamfix.vso
+Loaded pixel shader: debugLines.pso
+Loading half-float lightmap...
+Rendering...
+Saving...
+Running ftraceRTX addao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_final_HDR.lz4" 4 0 1 addao_1.bin
+Running denoiserOIDN2 c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA1_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA1_final_HDR.lz4" 2048 1
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "1" "Game_LMA1_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 102972, left 15385
+Collecting edges...
+43071 edges
+Sorting...
+Finding seams...X
+721 seams
+Generating mesh...
+Initializing D3D...
+Selected device: NVIDIA GeForce RTX 4090
+Loaded vertex shader: seamfix.vso
+Loaded pixel shader: debugLines.pso
+Loading half-float lightmap...
+Rendering...
+Saving...
+Running ftraceRTX addao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_final_HDR.lz4" 4 0 0 addao_0.bin
+Running denoiserOIDN2 c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LM0_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LM0_final_HDR.lz4" 2048 1
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "0" "Game_LM0_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 102972, left 7944
+Collecting edges...
+23832 edges
+Sorting...
+Finding seams...X
+0 seams
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA2_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/Scenes/Game/Game_LMA2_final.hdr" 1024
+Initializing D3D...
+Done
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA1_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/Scenes/Game/Game_LMA1_final.hdr" 1024
+Initializing D3D...
+Done
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LM0_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/Scenes/Game/Game_LM0_final.hdr" 1024
+Initializing D3D...
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Running ftraceRTX.exe interactive "C:\Users\Barty\AppData\Local\Temp\frender" a 4 0 0 preview.bin
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Rendering UV GBuffer for Game_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Game_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Game_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LM0.lz4" 2 0 0 0
+Running ftraceRTX ao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_ao" 8 16 2
+Running ftraceRTX ao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_ao" 8 16 1
+Running ftraceRTX ao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_ao" 8 16 0
+Running ftraceRTX batchpointlightlegacy "C:\Users\Barty\AppData\Local\Temp\frender" "PointBatch_2_0_1" 4 0 2 batchpointlight_2_0_1.bin
+Running ftraceRTX skycubemap "C:\Users\Barty\AppData\Local\Temp\frender" "light_1_2" 4 0 2 sky0.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\Barty\AppData\Local\Temp\frender" "PointBatch_1_0_1" 4 0 1 batchpointlight_1_0_1.bin
+Running ftraceRTX skycubemap "C:\Users\Barty\AppData\Local\Temp\frender" "light_1_1" 4 0 1 sky0.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\Barty\AppData\Local\Temp\frender" "PointBatch_0_0_1" 4 0 0 batchpointlight_0_0_1.bin
+Running ftraceRTX skycubemap "C:\Users\Barty\AppData\Local\Temp\frender" "light_1_0" 4 0 0 sky0.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_diffuse" 4 16 2 "gi_Game_LMA20.bin" "Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA10.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_diffuse" 4 16 0 "gi_Game_LM00.bin" "Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_diffuse" 4 16 2 "gi_Game_LMA21.bin" "Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA11.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_diffuse" 4 16 0 "gi_Game_LM01.bin" "Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_diffuse" 4 16 2 "gi_Game_LMA22.bin" "Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA12.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_diffuse" 4 16 0 "gi_Game_LM02.bin" "Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_diffuse" 4 16 2 "gi_Game_LMA23.bin" "Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA13.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_diffuse" 4 16 0 "gi_Game_LM03.bin" "Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_final" 4 16 2 "gi_Game_LMA24.bin" "Game_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_final" 4 16 1 "gi_Game_LMA14.bin" "Game_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_final" 4 16 0 "gi_Game_LM04.bin" "Game_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_final_HDR.lz4" 4 0 2 addao_2.bin
+Running denoiserOIDN2 c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA2_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA2_final_HDR.lz4" 1024 1
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "2" "Game_LMA2_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 102972, left 2414
+Collecting edges...
+7110 edges
+Sorting...
+Finding seams...X
+54 seams
+Generating mesh...
+Initializing D3D...
+Selected device: NVIDIA GeForce RTX 4090
+Loaded vertex shader: seamfix.vso
+Loaded pixel shader: debugLines.pso
+Loading half-float lightmap...
+Rendering...
+Saving...
+Running ftraceRTX addao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_final_HDR.lz4" 4 0 1 addao_1.bin
+Running denoiserOIDN2 c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA1_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA1_final_HDR.lz4" 2048 1
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "1" "Game_LMA1_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 102972, left 15385
+Collecting edges...
+43071 edges
+Sorting...
+Finding seams...X
+721 seams
+Generating mesh...
+Initializing D3D...
+Selected device: NVIDIA GeForce RTX 4090
+Loaded vertex shader: seamfix.vso
+Loaded pixel shader: debugLines.pso
+Loading half-float lightmap...
+Rendering...
+Saving...
+Running ftraceRTX addao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_final_HDR.lz4" 4 0 0 addao_0.bin
+Running denoiserOIDN2 c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LM0_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LM0_final_HDR.lz4" 2048 1
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "0" "Game_LM0_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 102972, left 7944
+Collecting edges...
+23832 edges
+Sorting...
+Finding seams...X
+0 seams
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA2_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/Scenes/Game/Game_LMA2_final.hdr" 1024
+Initializing D3D...
+Done
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA1_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/Scenes/Game/Game_LMA1_final.hdr" 1024
+Initializing D3D...
+Done
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LM0_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/Scenes/Game/Game_LM0_final.hdr" 1024
+Initializing D3D...
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Rendering UV GBuffer for Game_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Game_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Game_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Game_LMA3 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Game_LMA4 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LMA3.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LMA4.lz4" 2 0 4 0
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\Barty\AppData\Local\Temp\frender" "uvpos_Game_LMA1.lz4" 2 0 1 0
+Running ftraceRTX ao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_ao" 8 16 2
+Running ftraceRTX ao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_ao" 8 16 3
+Running ftraceRTX ao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4_ao" 8 16 4
+Running ftraceRTX ao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_ao" 8 16 0
+Running ftraceRTX ao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_ao" 8 16 1
+Running ftraceRTX batchpointlightlegacy "C:\Users\Barty\AppData\Local\Temp\frender" "PointBatch_2_0_1" 4 0 2 batchpointlight_2_0_1.bin
+Running ftraceRTX skycubemap "C:\Users\Barty\AppData\Local\Temp\frender" "light_1_2" 4 0 2 sky0.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\Barty\AppData\Local\Temp\frender" "PointBatch_3_0_1" 4 0 3 batchpointlight_3_0_1.bin
+Running ftraceRTX skycubemap "C:\Users\Barty\AppData\Local\Temp\frender" "light_1_3" 4 0 3 sky0.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\Barty\AppData\Local\Temp\frender" "PointBatch_4_0_1" 4 0 4 batchpointlight_4_0_1.bin
+Running ftraceRTX skycubemap "C:\Users\Barty\AppData\Local\Temp\frender" "light_1_4" 4 0 4 sky0.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4" 4 0 4 comp_4.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\Barty\AppData\Local\Temp\frender" "PointBatch_0_0_1" 4 0 0 batchpointlight_0_0_1.bin
+Running ftraceRTX skycubemap "C:\Users\Barty\AppData\Local\Temp\frender" "light_1_0" 4 0 0 sky0.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX skycubemap "C:\Users\Barty\AppData\Local\Temp\frender" "light_1_1" 4 0 1 sky0.bin
+Running ftraceRTX addmul "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_diffuse" 4 16 2 "gi_Game_LMA20.bin" "Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_diffuse" 4 16 3 "gi_Game_LMA30.bin" "Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4_diffuse" 4 16 4 "gi_Game_LMA40.bin" "Game_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_diffuse" 4 16 0 "gi_Game_LM00.bin" "Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA10.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_diffuse" 4 16 2 "gi_Game_LMA21.bin" "Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_diffuse" 4 16 3 "gi_Game_LMA31.bin" "Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4_diffuse" 4 16 4 "gi_Game_LMA41.bin" "Game_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_diffuse" 4 16 0 "gi_Game_LM01.bin" "Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA11.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_diffuse" 4 16 2 "gi_Game_LMA22.bin" "Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_diffuse" 4 16 3 "gi_Game_LMA32.bin" "Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4_diffuse" 4 16 4 "gi_Game_LMA42.bin" "Game_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_diffuse" 4 16 0 "gi_Game_LM02.bin" "Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA12.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_diffuse" 4 16 2 "gi_Game_LMA23.bin" "Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_diffuse" 4 16 3 "gi_Game_LMA33.bin" "Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4_diffuse" 4 16 4 "gi_Game_LMA43.bin" "Game_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_diffuse" 4 16 0 "gi_Game_LM03.bin" "Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_diffuse" 4 16 1 "gi_Game_LMA13.bin" "Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_final" 4 16 2 "gi_Game_LMA24.bin" "Game_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_final" 4 16 3 "gi_Game_LMA34.bin" "Game_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4_final" 4 16 4 "gi_Game_LMA44.bin" "Game_LMA4_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_final" 4 16 0 "gi_Game_LM04.bin" "Game_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_final" 4 16 1 "gi_Game_LMA14.bin" "Game_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA2_final_HDR.lz4" 4 0 2 addao_2.bin
+Running denoiser72 c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA2_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA2_final_HDR.lz4" 1024 1
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "2" "Game_LMA2_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 102972, left 6786
+Collecting edges...
+17430 edges
+Sorting...
+Finding seams...X
+650 seams
+Generating mesh...
+Initializing D3D...
+Selected device: NVIDIA GeForce RTX 4090
+Loaded vertex shader: seamfix.vso
+Loaded pixel shader: debugLines.pso
+Loading half-float lightmap...
+Rendering...
+Saving...
+Running ftraceRTX addao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA3_final_HDR.lz4" 4 0 3 addao_3.bin
+Running denoiser72 c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA3_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA3_final_HDR.lz4" 1024 1
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "3" "Game_LMA3_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 102972, left 382
+Collecting edges...
+1146 edges
+Sorting...
+Finding seams...X
+11 seams
+Generating mesh...
+Initializing D3D...
+Selected device: NVIDIA GeForce RTX 4090
+Loaded vertex shader: seamfix.vso
+Loaded pixel shader: debugLines.pso
+Loading half-float lightmap...
+Rendering...
+Saving...
+Running ftraceRTX addao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA4_final_HDR.lz4" 4 0 4 addao_4.bin
+Running denoiser72 c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA4_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA4_final_HDR.lz4" 1024 1
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "4" "Game_LMA4_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 102972, left 9186
+Collecting edges...
+27270 edges
+Sorting...
+Finding seams...X
+596 seams
+Generating mesh...
+Initializing D3D...
+Selected device: NVIDIA GeForce RTX 4090
+Loaded vertex shader: seamfix.vso
+Loaded pixel shader: debugLines.pso
+Loading half-float lightmap...
+Rendering...
+Saving...
+Running ftraceRTX addao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LM0_final_HDR.lz4" 4 0 0 addao_0.bin
+Running denoiser72 c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LM0_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LM0_final_HDR.lz4" 2048 1
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "0" "Game_LM0_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 102972, left 7944
+Collecting edges...
+23832 edges
+Sorting...
+Finding seams...X
+0 seams
+Running ftraceRTX addao "C:\Users\Barty\AppData\Local\Temp\frender" "Game_LMA1_final_HDR.lz4" 4 0 1 addao_1.bin
+Running denoiser72 c "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA1_final_HDR.lz4" "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA1_final_HDR.lz4" 2048 1
+Running seamfixer "C:\Users\Barty\AppData\Local\Temp\frender" "1" "Game_LMA1_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 102972, left 1445
+Collecting edges...
+4335 edges
+Sorting...
+Finding seams...X
+4 seams
+Generating mesh...
+Initializing D3D...
+Selected device: NVIDIA GeForce RTX 4090
+Loaded vertex shader: seamfix.vso
+Loaded pixel shader: debugLines.pso
+Loading half-float lightmap...
+Rendering...
+Saving...
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA2_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/Scenes/Game/Game_LMA2_final.hdr" 1024
+Initializing D3D...
+Done
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA3_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/Scenes/Game/Game_LMA3_final.hdr" 1024
+Initializing D3D...
+Done
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA4_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/Scenes/Game/Game_LMA4_final.hdr" 1024
+Initializing D3D...
+Done
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LM0_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/Scenes/Game/Game_LM0_final.hdr" 1024
+Initializing D3D...
+Done
+Running halffloat2hdr "C:\Users\Barty\AppData\Local\Temp\frender/Game_LMA1_final_HDR.lz4" "C:/Users/Barty/Documents/ArcadePanic/Assets/Scenes/Game/Game_LMA1_final.hdr" 1024
+Initializing D3D...
+Done
